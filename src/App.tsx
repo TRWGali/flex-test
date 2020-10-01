@@ -10,10 +10,10 @@ function App(props: IProps) {
   return (
     <div className="App">
       <header className="App-header">
+        
         <Flex.ContextProvider manager={props.manager}>
           <Flex.RootContainer />
         </Flex.ContextProvider>
-
       </header>
     </div>
   );
